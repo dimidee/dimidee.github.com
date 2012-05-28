@@ -1,0 +1,42 @@
+/*
+  schema: http://colorschemedesigner.com/#4G11TuJuJuDw0
+  purple:
+    standard: #6D0FA4
+    darker: #5D277D
+    deep: #46056D
+    light: #9C43D1
+    bright: #AB69D1
+*/
+
+body {
+  background-color: #000000;
+}
+
+body {
+  background-image: url(../img/chair.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar-inner {
+  background-color: #6D0FA4;
+  background-image: -o-linear-gradient(top, #6D0FA4, #5D277D);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.251), inset 0px -1px 0px rgba(0, 0, 0, 0.102);
+  min-height: 40px;
+  opacity: 0.5;
+}
+
+.brand {
+  color: #FFFFFF;
+}
+
+.hero-unit {
+  color: #46056D;
+  opacity: 0.2;
+}
+
+.well {
+  opacity: 0.2;
+}
