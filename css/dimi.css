@@ -9,7 +9,7 @@
 */
 
 body {
-  background-color: #000000;
+  background-color: #333333;
   background-image: url(../img/chair.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -51,11 +51,16 @@ h2 {
 
 .hero-unit {
   margin-top: 80px;
-  width: 50%;
-  color: #46056D;
-  opacity: 0.66;
+  width: 70%;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: url(../img/title.png);
+  background-repeat: no-repeat;
 }
 
+.hero-unit h2 {
+  color: #FFFFFF;
+}
 
 /* main content */
 
