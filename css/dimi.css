@@ -22,7 +22,7 @@ h2 {
 
 /* navbar */
 
-.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+.navbar-static-top .navbar-inner {
   border-width: 0;
 }
 
@@ -46,15 +46,26 @@ h2 {
   opacity: 0.66;
 }
 
-  .brand {
+  .navbar .brand {
     color: #FFFFFF;
+    text-shadow: none;
+    font-size: 32px;
+    padding: 10px 40px;
+  }
+
+  .navbar .category {
+    font-size: 20px;
+  }
+
+  .navbar p {
+    margin: 10px;
   }
 
 
 /* header */
 
 .hero-unit {
-  margin-top: 80px;
+  margin-top: 20px;
   width: 70%;
   color: #FFFFFF;
   background-color: transparent;
