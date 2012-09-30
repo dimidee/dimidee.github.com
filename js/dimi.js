@@ -3,9 +3,6 @@ $(document).ready(function() {
     $('#target').load("impress.html");
   });
   $("#fliesen_a").on("click", function(event){
-    $('#pic').attr("src","img/fliesen_a.jpg");
-  });
-  $("#fliesen_b").on("click", function(event){
-    $('#pic').attr("src","img/fliesen_b.jpg");
+    $('#pic').attr("src","img/dimi_05.jpg");
   });
 });
