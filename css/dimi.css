@@ -50,11 +50,12 @@ h2 {
     color: #FFFFFF;
     text-shadow: none;
     font-size: 32px;
-    padding: 10px 40px;
+    padding: 10px 0px 10px 40px;
   }
 
   .navbar .category {
     font-size: 20px;
+    float: right;
   }
 
   .navbar p {
@@ -65,17 +66,24 @@ h2 {
 /* header */
 
 .hero-unit {
-  margin-top: 20px;
+  margin: 0;
   width: 70%;
   color: #FFFFFF;
   background-color: transparent;
   background-image: url(../img/title.png);
   background-repeat: no-repeat;
+  padding: 110px 0px 30px 192px;
 }
 
 .hero-unit h2 {
-  color: #FFFFFF;
+  font-size: 36px;
+  color: #6D0FA4;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  text-shadow: 3px 3px 3px #000000;
 }
+
+
 
 /* main content */
 
