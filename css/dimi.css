@@ -22,6 +22,10 @@ h2 {
 
 /* navbar */
 
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  border-width: 0;
+}
+
 .navbar-inner {
   background-color: #6D0FA4;
   background-image: linear-gradient(top, #6D0FA4, #5D277D);
